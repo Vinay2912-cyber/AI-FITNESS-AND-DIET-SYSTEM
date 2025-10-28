@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Banner.png" alt="AI Fitness & Diet Recommendation System Banner" width="80%">
+  <img src="Banner.png" alt="AI Fitness & Diet Recommendation System Banner" width="100% height = "40% ">
 </p>
 
 # AI Fitness & Diet Recommendation System  
