@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="AI Fitness & Diet Recommendation System Banner" width="100%">
+</p>
+
 # AI Fitness & Diet Recommendation System  
 
 > A smart AI-powered web application that recommends **personalized diet and fitness plans** using **Machine Learning** and **Flask**.  
