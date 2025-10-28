@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result | AI Fitness</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="result-container">
+    <h2>🔥 Your Personalized Fitness Plan</h2>
+    <p><b>Recommended Calories:</b> {{ calories }} kcal/day</p>
+    <p><b>Diet Plan:</b> {{ diet }}</p>
+    <p><b>Workout Suggestion:</b> {{ workout }}</p>
+    <a href="/" class="back">← Try Again</a>
+  </div>
+</body>
+</html>

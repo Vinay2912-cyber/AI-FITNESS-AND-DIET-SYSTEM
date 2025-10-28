@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Fitness & Diet Recommender</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 AI Fitness & Diet Recommender</h1>
+    <form action="/predict" method="post">
+      <input type="number" name="height" placeholder="Enter height (cm)" required>
+      <input type="number" name="weight" placeholder="Enter weight (kg)" required>
+      <input type="number" name="age" placeholder="Enter age" required>
+
+      <label>Activity Level:</label>
+      <select name="activity">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+
+      <label>Goal:</label>
+      <select name="goal">
+        <option value="maintain">Maintain Weight</option>
+        <option value="weight_loss">Lose Weight</option>
+        <option value="weight_gain">Gain Weight</option>
+      </select>
+
+      <button type="submit">Get Recommendation</button>
+    </form>
+  </div>
+</body>
+</html>
